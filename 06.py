@@ -1,0 +1,8 @@
+print('a = ')
+a = int(input())
+print('b = ')
+b = int(input())
+print('h = ')
+h = int(input())
+P = a + b + 2*((h**2 + ((a - b)/2)**2)**0.5)
+print('P = ', P)
